@@ -11,14 +11,6 @@
 
 </div>
 
-```txt
-XXY-CH / CachoidXie
-Location: Hangzhou
-Affiliation: Hangzhou XueJun High School
-Operating mode: proof-first research + production-grade systems
-Current motto: Fortis Fortuna Adiuvat.
-```
-
 ## About
 
 I build research-shaped systems: online judges that understand teaching data,
@@ -60,24 +52,6 @@ that another engineer can actually reproduce.
         <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/XXY-CH/OpenMAIC">OpenMAIC</a></h3>
-      <p>Open Multi-Agent Interactive Classroom: a one-click immersive learning environment driven by coordinated agents.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Agents-0f172a?style=flat-square" alt="Agents" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/XXY-CH/RuView">RuView</a></h3>
-      <p>WiFi DensePose research direction: commodity WiFi signals for pose, presence, and vital sign sensing without camera pixels.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-        <img src="https://img.shields.io/badge/Signal%20Systems-06b6d4?style=flat-square" alt="Signal systems" />
       </p>
     </td>
   </tr>
@@ -142,7 +116,6 @@ flowchart LR
 ```txt
 Email:  cachoidxx@gmail.com
 GitHub: https://github.com/XXY-CH
-Home:   Hangzhou
 ```
 
 <div align="center">
