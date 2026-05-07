@@ -100,16 +100,28 @@ flowchart LR
 
 ## GitHub Signal
 
-<div align="center">
+```txt
+Public repos: 19
+Recent center of gravity: Engram Retention, CodeNexus, OpenMAIC, RuView
+Main languages by public repo count:
+  JavaScript  ####  4
+  C++         ###   3
+  Python      ###   3
+  Rust        ###   3
+  TypeScript  ###   3
+  Go          #     1
+```
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=XXY-CH&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=XXY-CH&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+| Signal | Why it matters |
+|---|---|
+| Research code | `engram-retention` keeps proofs, configs, tests, and citation metadata together. |
+| Systems code | `CodeNexus` pushes AI-native online judging toward real teaching workflows. |
+| Agent code | `dna-memory`, `evolver`, and `mindx` explore memory, self-evolution, and digital identity. |
+| Interface code | `OpenMAIC` experiments with multi-agent learning surfaces. |
 
-<br />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=XXY-CH&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-</div>
+This section intentionally avoids third-party dynamic stat renderers. Some
+popular README stat services currently return 503 errors, which GitHub surfaces
+as `Error Fetching Resource`.
 
 ## Contact
 
