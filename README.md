@@ -26,7 +26,7 @@ that another engineer can actually reproduce.
 
 | Lane | What I am building | Public signal |
 |---|---|---|
-| Long-context AI research | RetNet-style retention, Engram lookup, Block Attention Residuals, milestone snapshots | [engram-retention](https://github.com/XXY-CH/engram-retention) |
+| Long-context AI research | RetNet-style retention, Engram lookup, Block Attention Residuals, milestone snapshots | [engram-retention](https://github.com/XXY-CH/Anamnesis) |
 | AI-native education systems | Online judge platform for school teaching, evaluation, and AI-assisted governance | [CodeNexus](https://github.com/XXY-CH/CodeNexus) |
 | Agent memory and evolution | Systems where agents learn, forget, route, and self-improve over time | [dna-memory](https://github.com/XXY-CH/dna-memory), [evolver](https://github.com/XXY-CH/evolver), [mindx](https://github.com/XXY-CH/mindx) |
 | Multi-agent learning | Interactive classrooms and coordination surfaces for AI-assisted learning | [OpenMAIC](https://github.com/XXY-CH/OpenMAIC) |
