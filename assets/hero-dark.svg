@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-label="CachoidXie — verifiable agent systems" data-mode="dark">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#E28A6B"/>
+    </marker>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="408" rx="10"/></clipPath>
+  </defs>
+  <style>
+    .display{font-family:"Anthropic Serif Display","Anthropic Serif Text","Galaxie Copernicus",Georgia,serif}
+    .sans{font-family:"Anthropic Sans Display","Anthropic Sans Text","Helvetica Neue",Arial,sans-serif}
+    .kicker{font-size:12px;font-weight:600;letter-spacing:2.2px}
+    .micro{font-size:10px;font-weight:600;letter-spacing:1.7px}
+    .body{font-size:15px;letter-spacing:.15px}
+    .flow{stroke-dasharray:5 8;animation:flow 18s linear infinite}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.6s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-130}}
+    @keyframes pulse{50%{opacity:.35;transform:scale(.72)}}
+    @media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="410" fill="#191816"/>
+    <circle cx="1056" cy="-22" r="270" fill="#E28A6B" opacity=".06"/>
+    <path d="M802 0C900 96 1055 105 1200 66" fill="none" stroke="#E28A6B" stroke-width="1" opacity=".22"/>
+    <path d="M865 0C949 70 1070 72 1200 36" fill="none" stroke="#F4EFE7" stroke-width="1" opacity=".08"/>
+
+    <rect x="46" y="40" width="12" height="12" fill="#E28A6B"/>
+    <text x="70" y="51" class="sans kicker" fill="#F4EFE7">CACHOIDXIE / PROFILE 2026</text>
+    <text x="1150" y="51" text-anchor="end" class="sans micro" fill="#A9A198">HANGZHOU · UTC+8</text>
+    <line x1="46" y1="72" x2="1154" y2="72" stroke="#4B4640"/>
+
+    <text x="48" y="111" class="sans kicker" fill="#E28A6B">VERIFIABLE INFRASTRUCTURE</text>
+    <text x="46" y="176" class="display" font-size="62" font-weight="400" fill="#F4EFE7">Agent systems</text>
+    <text x="46" y="238" class="display" font-size="62" font-weight="400" fill="#F4EFE7">that leave receipts.</text>
+    <text x="50" y="276" class="sans body" fill="#BBB3AA">Governed execution · signed evidence · durable memory</text>
+
+    <g transform="translate(954 190)">
+      <circle r="105" fill="none" stroke="#4B4640"/>
+      <circle r="72" fill="none" stroke="#E28A6B" stroke-width="1.5" opacity=".72"/>
+      <circle r="38" fill="#292622" stroke="#E28A6B"/>
+      <rect x="-7" y="-7" width="14" height="14" fill="#E28A6B" transform="rotate(45)"/>
+      <path class="flow" d="M0-105A105 105 0 0 1 91 53" fill="none" stroke="#E28A6B" stroke-width="2" marker-end="url(#arrow)"/>
+      <path d="M0-72V-38M62 36L33 19M-62 36L-33 19" stroke="#746B63"/>
+      <g class="sans micro" text-anchor="middle" fill="#C9C1B8">
+        <text x="0" y="-120">GOVERN</text>
+        <text x="108" y="66">PROVE</text>
+        <text x="-108" y="66">REMEMBER</text>
+      </g>
+      <circle class="pulse" cx="0" cy="-105" r="5" fill="#E28A6B"/>
+      <circle class="pulse" cx="91" cy="53" r="5" fill="#E28A6B" style="animation-delay:.9s"/>
+      <circle class="pulse" cx="-91" cy="53" r="5" fill="#E28A6B" style="animation-delay:1.8s"/>
+    </g>
+
+    <line x1="46" y1="316" x2="1154" y2="316" stroke="#4B4640"/>
+    <text x="46" y="342" class="sans micro" fill="#A9A198">CONTROL PLANE / 03 ACTIVE LAYERS</text>
+
+    <g transform="translate(46 360)" class="sans">
+      <text x="0" y="0" class="micro" fill="#E28A6B">01 · GOVERN</text>
+      <text x="0" y="24" font-size="16" font-weight="600" fill="#F4EFE7">Aetherion</text>
+      <line x1="0" y1="36" x2="318" y2="36" stroke="#4B4640"/>
+    </g>
+    <g transform="translate(430 360)" class="sans">
+      <text x="0" y="0" class="micro" fill="#E28A6B">02 · PROVE</text>
+      <text x="0" y="24" font-size="16" font-weight="600" fill="#F4EFE7">Agnet</text>
+      <line x1="0" y1="36" x2="318" y2="36" stroke="#4B4640"/>
+    </g>
+    <g transform="translate(814 360)" class="sans">
+      <text x="0" y="0" class="micro" fill="#B89B8B">03 · REMEMBER</text>
+      <text x="0" y="24" font-size="16" font-weight="600" fill="#F4EFE7">Anamnesis</text>
+      <line x1="0" y1="36" x2="340" y2="36" stroke="#4B4640"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="408" rx="10" fill="none" stroke="#4B4640"/>
+</svg>

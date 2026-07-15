@@ -1,81 +1,54 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="CachoidXie profile control plane" src="assets/hero-light.svg" width="100%">
+</picture>
 
-# CachoidXie
+![profile](https://img.shields.io/badge/profile-XXY--CH-A84F35?style=flat-square&labelColor=26231F) ![layers](https://img.shields.io/badge/layers-3-6F6A63?style=flat-square&labelColor=26231F)
 
-I build agent systems that leave receipts.
+Agent systems that leave receipts — govern, prove, remember\.
 
-[Agnet](https://github.com/XXY-CH/Agnet) ·
-[Research DOI](https://doi.org/10.5281/zenodo.20041183) ·
-[Email](mailto:cachoidxx@gmail.com)
+## Flagship systems
 
-</div>
+| Repository | Role | Purpose |
+| --- | --- | --- |
+| [`Agnet`](https://github.com/XXY-CH/Agnet) ![stars](https://img.shields.io/github/stars/XXY--CH/Agnet?style=flat-square&label=%E2%98%85) | PROVE | Portable accountability infrastructure for agent identity, signed tasks, durable Swarms, artifacts, receipts, and independent verification\. |
+| [`Aetherion`](https://github.com/XXY-CH/Aetherion) ![stars](https://img.shields.io/github/stars/XXY--CH/Aetherion?style=flat-square&label=%E2%98%85) | GOVERN | Local-first agent harness kernel for policy, memory, event ledgers, capabilities, and governed tool execution\. |
+| [`Anamnesis`](https://github.com/XXY-CH/Anamnesis) ![stars](https://img.shields.io/github/stars/XXY--CH/Anamnesis?style=flat-square&label=%E2%98%85) | REMEMBER | Proof-aligned PyTorch research scaffold for budgeted long-context memory across recurrence, depth routing, and hashed Engrams\. |
+| [`CodeNexus`](https://github.com/XXY-CH/CodeNexus) ![stars](https://img.shields.io/github/stars/XXY--CH/CodeNexus?style=flat-square&label=%E2%98%85) | TEACH | Multi-tenant educational online judge with sandboxed execution, classroom workflows, contests, and AI-gated analysis\. |
+| [`NEW-Finding-Shortest-Paths-Algorithm`](https://github.com/XXY-CH/NEW-Finding-Shortest-Paths-Algorithm) ![stars](https://img.shields.io/github/stars/XXY--CH/NEW--Finding--Shortest--Paths--Algorithm?style=flat-square&label=%E2%98%85) | OPTIMIZE | C\+\+ implementation of BMSSP Algorithms 1–3 and Lemma 3\.3, benchmarked and correctness-checked against Dijkstra\. |
 
----
+## Closed-loop architecture
 
-## The work I would show first
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/closed-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/closed-loop-light.svg">
+  <img alt="CachoidXie architecture map" src="assets/closed-loop-light.svg" width="100%">
+</picture>
 
-**Agnet** is my strongest current project: a local-first accountability layer
-for agent work.
+## Module registry
 
-I do not want agents that merely sound certain in a transcript. I want systems
-where a later verifier can answer harder questions:
+<details>
+<summary><strong>Agent systems</strong> · 2 modules</summary>
 
-- what was requested
-- who accepted the work
-- what policy and approval evidence applied
-- which artifacts were produced
-- which receipt, digest, and audit entry anchor the claim
-- what the system explicitly does not prove yet
-
-Agnet is the proof layer around those questions. It signs task openings,
-receipts, artifact manifests, proof bundles, sandbox claims, queue actions, and
-audit trails, then keeps the boundaries narrow enough for another process to
-check.
-
-```text
-claim -> receipt -> artifact manifest -> verifier -> boundary document
-```
-
-Current status: research prototype, local-first, v12 active. It is not a
-production agent network, scheduler, economic layer, or container-isolated
-runtime. That boundary is deliberate: the point is to make evidence legible
-before making the system bigger.
-
-[Read Agnet](https://github.com/XXY-CH/Agnet)
-
----
-
-## What I keep optimizing for
-
-I like systems where the boring parts are first-class:
-
-- fail closed when evidence is missing
-- make claims smaller than the proof
-- prefer verifiers over summaries
-- keep manifests close to the bytes they describe
-- write boundary docs before the demo starts lying
-
-Most of my work sits somewhere between agent runtimes, memory, developer tools,
-and verification. The stack changes; the habit does not.
-
----
-
-## Other work
-
-| Project | Shape |
+| Module | Purpose |
 | --- | --- |
-| [Aetherion](https://github.com/XXY-CH/Aetherion) | Local-first agent harness for permissions, memory, event logs, and governed tool use. |
-| [CodeNexus](https://github.com/XXY-CH/CodeNexus) | Online judge for education, sandboxed execution, teacher workflows, and code feedback. |
-| [Anamnesis](https://github.com/XXY-CH/Anamnesis) | Long-context memory scaffold around recurrence, retrieval, and cheaper remembered evidence. |
+| [`Agnet`](https://github.com/XXY-CH/Agnet) | Agent identity, signed work, durable Swarms, evidence closure, and independent verification\. |
+| [`Aetherion`](https://github.com/XXY-CH/Aetherion) | Human-governed local runtime for agent permissions, memory, capabilities, and tool execution\. |
 
----
+</details>
 
-## Tools
+<details>
+<summary><strong>Research and education</strong> · 3 modules</summary>
 
-Go, Rust, TypeScript, Python, React, PostgreSQL, Redis, Docker, Linux.
+| Module | Purpose |
+| --- | --- |
+| [`Anamnesis`](https://github.com/XXY-CH/Anamnesis) | Budgeted long-context memory research across recurrent, depth, and sparse lookup paths\. |
+| [`CodeNexus`](https://github.com/XXY-CH/CodeNexus) | Rust and React online judge for secure educational code execution and classroom workflows\. |
+| [`NEW-Finding-Shortest-Paths-Algorithm`](https://github.com/XXY-CH/NEW-Finding-Shortest-Paths-Algorithm) | BMSSP paper implementation with Dijkstra baselines, strict correctness checks, and benchmarks\. |
 
-I reach for whatever makes the system easier to inspect.
+</details>
 
----
+<p align="center"><a href="https://github.com/XXY-CH">GitHub</a> · <a href="https://person.cachoidx.top">Blog</a> · <a href="https://doi.org/10.5281/zenodo.20041183">Research DOI</a> · <a href="mailto:cachoidxx@gmail.com">Email</a></p>
 
-`cachoidxx@gmail.com`
+<!-- Profile structure adapted from profile-control-plane. -->

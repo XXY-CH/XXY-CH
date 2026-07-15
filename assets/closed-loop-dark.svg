@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Govern, prove, remember — closed-loop architecture" data-mode="dark">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#E28A6B"/>
+    </marker>
+  </defs>
+  <style>
+    .display{font-family:"Anthropic Serif Display","Anthropic Serif Text","Galaxie Copernicus",Georgia,serif}
+    .sans{font-family:"Anthropic Sans Display","Anthropic Sans Text","Helvetica Neue",Arial,sans-serif}
+    .kicker{font-size:12px;font-weight:600;letter-spacing:2.2px}
+    .micro{font-size:10px;font-weight:600;letter-spacing:1.6px}
+    .flow{stroke-dasharray:6 9;animation:flow 18s linear infinite}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.6s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-150}}
+    @keyframes pulse{50%{opacity:.38;transform:scale(.74)}}
+    @media(prefers-reduced-motion:reduce){.flow,.pulse{animation:none}}
+  </style>
+  <rect width="1200" height="360" rx="10" fill="#191816"/>
+  <rect x="1" y="1" width="1198" height="358" rx="10" fill="none" stroke="#4B4640"/>
+  <rect x="46" y="40" width="12" height="12" fill="#E28A6B"/>
+  <text x="70" y="51" class="sans kicker" fill="#F4EFE7">THE ACCOUNTABILITY LOOP</text>
+  <text x="1150" y="51" text-anchor="end" class="sans micro" fill="#A9A198">03 SYSTEMS · ONE VERIFIABLE PATH</text>
+  <line x1="46" y1="72" x2="1154" y2="72" stroke="#4B4640"/>
+
+  <text x="48" y="120" class="display" font-size="40" fill="#F4EFE7">Govern. Prove. Remember.</text>
+  <text x="50" y="149" class="sans" font-size="14" fill="#BBB3AA">A compact control plane for accountable agent work.</text>
+
+  <path d="M322 226H548" fill="none" stroke="#746B63" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M652 226H878" fill="none" stroke="#746B63" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path class="flow" d="M930 174C930 92 270 92 270 174" fill="none" stroke="#E28A6B" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+  <g transform="translate(270 226)">
+    <circle r="52" fill="#292622" stroke="#E28A6B" stroke-width="1.5"/>
+    <circle class="pulse" r="7" fill="#E28A6B" opacity=".9"/>
+    <text y="10" text-anchor="middle" class="display" font-size="31" fill="#F4EFE7">01</text>
+    <text y="78" text-anchor="middle" class="sans micro" fill="#E28A6B">GOVERN</text>
+    <text y="101" text-anchor="middle" class="sans" font-size="15" font-weight="600" fill="#F4EFE7">Aetherion</text>
+  </g>
+  <g transform="translate(600 226)">
+    <circle r="52" fill="#292622" stroke="#E28A6B" stroke-width="1.5"/>
+    <circle class="pulse" r="7" fill="#E28A6B" opacity=".9" style="animation-delay:1.2s"/>
+    <text y="10" text-anchor="middle" class="display" font-size="31" fill="#F4EFE7">02</text>
+    <text y="78" text-anchor="middle" class="sans micro" fill="#E28A6B">PROVE</text>
+    <text y="101" text-anchor="middle" class="sans" font-size="15" font-weight="600" fill="#F4EFE7">Agnet</text>
+  </g>
+  <g transform="translate(930 226)">
+    <circle r="52" fill="#292622" stroke="#B89B8B" stroke-width="1.5"/>
+    <circle class="pulse" r="7" fill="#B89B8B" opacity=".9" style="animation-delay:2.4s"/>
+    <text y="10" text-anchor="middle" class="display" font-size="31" fill="#F4EFE7">03</text>
+    <text y="78" text-anchor="middle" class="sans micro" fill="#B89B8B">REMEMBER</text>
+    <text y="101" text-anchor="middle" class="sans" font-size="15" font-weight="600" fill="#F4EFE7">Anamnesis</text>
+  </g>
+</svg>
