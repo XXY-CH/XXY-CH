@@ -4,19 +4,17 @@
   <img alt="CachoidXie profile control plane" src="assets/hero-light.svg" width="100%">
 </picture>
 
-![profile](https://img.shields.io/badge/profile-XXY--CH-A84F35?style=flat-square&labelColor=26231F) ![layers](https://img.shields.io/badge/layers-3-6F6A63?style=flat-square&labelColor=26231F)
-
 Agent systems that leave receipts — govern, prove, remember\.
 
 ## Flagship systems
 
 | Repository | Role | Purpose |
 | --- | --- | --- |
-| [`Agnet`](https://github.com/XXY-CH/Agnet) ![stars](https://img.shields.io/github/stars/XXY--CH/Agnet?style=flat-square&label=%E2%98%85) | PROVE | Portable accountability infrastructure for agent identity, signed tasks, durable Swarms, artifacts, receipts, and independent verification\. |
-| [`Aetherion`](https://github.com/XXY-CH/Aetherion) ![stars](https://img.shields.io/github/stars/XXY--CH/Aetherion?style=flat-square&label=%E2%98%85) | GOVERN | Local-first agent harness kernel for policy, memory, event ledgers, capabilities, and governed tool execution\. |
-| [`Anamnesis`](https://github.com/XXY-CH/Anamnesis) ![stars](https://img.shields.io/github/stars/XXY--CH/Anamnesis?style=flat-square&label=%E2%98%85) | REMEMBER | Proof-aligned PyTorch research scaffold for budgeted long-context memory across recurrence, depth routing, and hashed Engrams\. |
-| [`CodeNexus`](https://github.com/XXY-CH/CodeNexus) ![stars](https://img.shields.io/github/stars/XXY--CH/CodeNexus?style=flat-square&label=%E2%98%85) | TEACH | Multi-tenant educational online judge with sandboxed execution, classroom workflows, contests, and AI-gated analysis\. |
-| [`NEW-Finding-Shortest-Paths-Algorithm`](https://github.com/XXY-CH/NEW-Finding-Shortest-Paths-Algorithm) ![stars](https://img.shields.io/github/stars/XXY--CH/NEW--Finding--Shortest--Paths--Algorithm?style=flat-square&label=%E2%98%85) | OPTIMIZE | C\+\+ implementation of BMSSP Algorithms 1–3 and Lemma 3\.3, benchmarked and correctness-checked against Dijkstra\. |
+| [`Agnet`](https://github.com/XXY-CH/Agnet) | PROVE | Portable accountability infrastructure for agent identity, signed tasks, durable Swarms, artifacts, receipts, and independent verification\. |
+| [`Aetherion`](https://github.com/XXY-CH/Aetherion) | GOVERN | Local-first agent harness kernel for policy, memory, event ledgers, capabilities, and governed tool execution\. |
+| [`Anamnesis`](https://github.com/XXY-CH/Anamnesis) | REMEMBER | Proof-aligned PyTorch research scaffold for budgeted long-context memory across recurrence, depth routing, and hashed Engrams\. |
+| [`CodeNexus`](https://github.com/XXY-CH/CodeNexus) | TEACH | Multi-tenant educational online judge with sandboxed execution, classroom workflows, contests, and AI-gated analysis\. |
+| [`NEW-Finding-Shortest-Paths-Algorithm`](https://github.com/XXY-CH/NEW-Finding-Shortest-Paths-Algorithm) | OPTIMIZE | C\+\+ implementation of BMSSP Algorithms 1–3 and Lemma 3\.3, benchmarked and correctness-checked against Dijkstra\. |
 
 ## Closed-loop architecture
 
