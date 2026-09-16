@@ -51,22 +51,27 @@
     </g>
 
     <line x1="46" y1="316" x2="1154" y2="316" stroke="#D3CABD"/>
-    <text x="46" y="342" class="sans micro" fill="#746D65">CONTROL PLANE / 03 ACTIVE LAYERS</text>
+    <text x="46" y="342" class="sans micro" fill="#746D65">CONTROL PLANE / 04 ACTIVE LAYERS</text>
 
     <g transform="translate(46 360)" class="sans">
-      <text x="0" y="0" class="micro" fill="#A84F35">01 · GOVERN</text>
+      <text x="0" y="0" class="micro" fill="#A84F35">01 · RUN</text>
+      <text x="0" y="24" font-size="16" font-weight="600" fill="#211F1C">AOK</text>
+      <line x1="0" y1="36" x2="256" y2="36" stroke="#D3CABD"/>
+    </g>
+    <g transform="translate(330 360)" class="sans">
+      <text x="0" y="0" class="micro" fill="#A84F35">02 · GOVERN</text>
       <text x="0" y="24" font-size="16" font-weight="600" fill="#211F1C">Aetherion</text>
-      <line x1="0" y1="36" x2="318" y2="36" stroke="#D3CABD"/>
+      <line x1="0" y1="36" x2="256" y2="36" stroke="#D3CABD"/>
     </g>
-    <g transform="translate(430 360)" class="sans">
-      <text x="0" y="0" class="micro" fill="#A84F35">02 · PROVE</text>
+    <g transform="translate(614 360)" class="sans">
+      <text x="0" y="0" class="micro" fill="#A84F35">03 · PROVE</text>
       <text x="0" y="24" font-size="16" font-weight="600" fill="#211F1C">Agnet</text>
-      <line x1="0" y1="36" x2="318" y2="36" stroke="#D3CABD"/>
+      <line x1="0" y1="36" x2="256" y2="36" stroke="#D3CABD"/>
     </g>
-    <g transform="translate(814 360)" class="sans">
-      <text x="0" y="0" class="micro" fill="#8A7569">03 · REMEMBER</text>
+    <g transform="translate(898 360)" class="sans">
+      <text x="0" y="0" class="micro" fill="#8A7569">04 · REMEMBER</text>
       <text x="0" y="24" font-size="16" font-weight="600" fill="#211F1C">Anamnesis</text>
-      <line x1="0" y1="36" x2="340" y2="36" stroke="#D3CABD"/>
+      <line x1="0" y1="36" x2="256" y2="36" stroke="#D3CABD"/>
     </g>
   </g>
   <rect x="1" y="1" width="1198" height="408" rx="10" fill="none" stroke="#CFC5B7"/>
