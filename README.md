@@ -4,17 +4,17 @@
   <img alt="CachoidXie profile control plane" src="assets/hero-light.svg" width="100%">
 </picture>
 
-Agent systems that leave receipts — govern, prove, remember\.
+Agent systems that leave receipts — run, govern, prove, remember\.
 
 ## Flagship systems
 
 | Repository | Role | Purpose |
 | --- | --- | --- |
+| [`AOK`](https://github.com/XXY-CH/AOK) | RUN | Agent-native SubOS for macOS on Apple Silicon — typed handle ABI, capability-scoped microVMs, and inference as a kernel device instead of Computer Use\. |
 | [`Agnet`](https://github.com/XXY-CH/Agnet) | PROVE | Portable accountability infrastructure for agent identity, signed tasks, durable Swarms, artifacts, receipts, and independent verification\. |
 | [`Aetherion`](https://github.com/XXY-CH/Aetherion) | GOVERN | Local-first agent harness kernel for policy, memory, event ledgers, capabilities, and governed tool execution\. |
 | [`Anamnesis`](https://github.com/XXY-CH/Anamnesis) | REMEMBER | Proof-aligned PyTorch research scaffold for budgeted long-context memory across recurrence, depth routing, and hashed Engrams\. |
 | [`CodeNexus`](https://github.com/XXY-CH/CodeNexus) | TEACH | Multi-tenant educational online judge with sandboxed execution, classroom workflows, contests, and AI-gated analysis\. |
-| [`NEW-Finding-Shortest-Paths-Algorithm`](https://github.com/XXY-CH/NEW-Finding-Shortest-Paths-Algorithm) | OPTIMIZE | C\+\+ implementation of BMSSP Algorithms 1–3 and Lemma 3\.3, benchmarked and correctness-checked against Dijkstra\. |
 
 ## Closed-loop architecture
 
@@ -27,10 +27,11 @@ Agent systems that leave receipts — govern, prove, remember\.
 ## Module registry
 
 <details>
-<summary><strong>Agent systems</strong> · 2 modules</summary>
+<summary><strong>Agent systems</strong> · 3 modules</summary>
 
 | Module | Purpose |
 | --- | --- |
+| [`AOK`](https://github.com/XXY-CH/AOK) | Agent-native SubOS where aproc processes, capability boundaries, and the ainf inference device give agents an OS of their own\. |
 | [`Agnet`](https://github.com/XXY-CH/Agnet) | Agent identity, signed work, durable Swarms, evidence closure, and independent verification\. |
 | [`Aetherion`](https://github.com/XXY-CH/Aetherion) | Human-governed local runtime for agent permissions, memory, capabilities, and tool execution\. |
 
